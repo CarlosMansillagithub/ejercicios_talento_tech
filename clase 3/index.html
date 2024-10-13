@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Formularios</title>
+</head>
+<body>
+    <form action="link" method="post" target="_blank">
+        <label for="firstname">Nombre:</label>
+        <input size="30" type="text" name="firstname" id="firstname">
+        <label for="mail">Mail:</label>
+        <input size="30" type="mail" name="mail" id="mail">
+        <br>
+        <label for="textoarea">Texto:</label>
+        <textarea  name="textoarea" rows="30" cols="20">Escribe tu consultax</textarea>
+        <h1>Ejemplo de check box</h1>
+        <input type="checkbox" name="opcion" value="1">Opcion 1
+        <input type="checkbox" name="opcion" value="1">Opcion 2
+        <input type="checkbox" name="opcion" value="1">Opcion 3
+        <input type="checkbox" name="opcion" value="1">Opcion 4
+        <h2>Ejemplo con opciones de tipo radio</h2>
+        <input type="radio" name="opcion" value="1">Opcion 1
+        <input type="radio" name="opcion" value="2">Opcion 2
+        <input type="radio" name="opcion" value="3">Opcion 3
+        <input type="radio" name="opcion" value="4">Opcion 4
+        <br>
+        <!-- Ejemplo de Desplegables -->
+        <select name="turno">
+            <option>Mañana</option>
+            <option>Tarde</option>
+            <option>Noche</option>
+        </select>
+        <br>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR DATOS">
+    </form>
+</body>
+</html>
